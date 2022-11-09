@@ -9,7 +9,7 @@ def find_max_count(data):
     count=0
     for i in data:
         if i>m:
-            count+=1
+            count+=m
             m=i
     return count
 print(find_max_count([1,2,3,4,5,8,9,9,9]))
